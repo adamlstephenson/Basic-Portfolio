@@ -85,6 +85,10 @@ h2 {
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
+    width: 40%;
+    background-color: white;
+    margin-left: 10%;
+
     
 }
 
