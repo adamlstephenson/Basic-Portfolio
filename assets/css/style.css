@@ -26,14 +26,17 @@ h1 {
 h2, h3, h4, h5 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 h3, h4, h5 {
-    font-size: 36px;
+    font-size: 50px;
     border-bottom-style: solid;
     border-bottom-color: #dddddd;
     border-bottom-width: 3px;
     padding-bottom: 30px;
+    padding-left: 20px;
 }
 
 .container {
@@ -55,6 +58,13 @@ nav {
     overflow: hidden;
 }
 
+#socialmedia1, #socialmedia2, #socialmedia3 {
+    height: 80px;
+    padding-bottom: 20%;
+    padding-top: 40px;
+    padding-left: 0;
+}
+
 li {
     list-style-type: none;
     display: inline-block;
@@ -67,7 +77,7 @@ h2 {
 .sidebar {
     display: block;
     width: 270px;
-    height: auto;
+    height: 210px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -75,13 +85,17 @@ h2 {
     background: white;
     float: right;
     margin-right: 10%;
-    margin-bottom: 50%;
+    margin-top: -535px;
     clear: both;
+    padding: 40px;
 }
 
 #mypicture {
     height: 200px;
     width: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .portfoliowords {
@@ -97,10 +111,14 @@ h2 {
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
-    width: 960px;
+    width: 666px;
     background-color: white;
     margin-left: 10%;
     margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
