@@ -159,11 +159,38 @@ footer {
 
 }
 
-.portfoliowords {
+.portfoliowords1 {
     background-image: url(./hangman.jpg);
+    height: 100px;
+    width: 100px;
 }
 
-#hangman {
-    font-size: 50px;
-    width: 20p;
+.portfoliowords2 {
+    background-image: url(./rpggame.jpg);
+    height: 100px;
+    width: 100px;
+}
+
+.portfoliowords3 {
+    background-image: url(./triviagame.jpg);
+    height: 100px;
+    width: 100px;
+}
+
+.portfoliowords4 {
+    background-image: url(./rutgersinfowidget.jpg);
+    height: 100px;
+    width: 100px;
+}
+
+.portfoliowords5 {
+    background-image: url(./rockpaperscissors.jpg);
+    height: 100px;
+    width: 100px;
+}
+
+#hangman, #rpggame, #triviagame, #rutgersinfowidget, #rockpaperscissors {
+    font-size: 10px;
+    width: 20px;
+    background-color: red;
 }
