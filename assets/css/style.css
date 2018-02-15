@@ -74,6 +74,7 @@ nav {
 
 #socialmedia1, #socialmedia2, #socialmedia3 {
     height: 80px;
+    width: 80px;
     padding-bottom: 20%;
     padding-top: 40px;
     padding-left: 0;
@@ -196,6 +197,7 @@ footer {
     height: 200px;
     width: 200px;
     float: left;
+    position: relative;
 }
 
 .portfoliowords2 {
@@ -204,6 +206,7 @@ footer {
     height: 200px;
     width: 200px;
     float: right;
+    position: relative;
 }
 
 .portfoliowords3 {
@@ -212,6 +215,7 @@ footer {
     height: 200px;
     width: 200px;
     float: left;
+    position: relative;
 }
 
 .portfoliowords4 {
@@ -220,6 +224,7 @@ footer {
     height: 200px;
     width: 200px;
     float: right;
+    position: relative;
 }
 
 .portfoliowords5 {
@@ -228,6 +233,7 @@ footer {
     height: 200px;
     width: 200px;
     float: left;
+    position: relative;
 }
 
 #hangman, #rpggame, #triviagame, #rutgersinfowidget, #rockpaperscissors {
@@ -239,4 +245,5 @@ footer {
     padding-bottom: 5%;
     padding-right: 10%;
     padding-left: 10%;
+    position: absolute;
 }
