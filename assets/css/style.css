@@ -92,7 +92,7 @@ h2 {
 .sidebar {
     display: block;
     width: 270px;
-    height: 210px;
+    height: 200px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -106,11 +106,12 @@ h2 {
 }
 
 #mypicture {
-    height: 200px;
+    height: 150px;
     width: 200px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 .portfoliowords {
@@ -160,13 +161,47 @@ input[type=submit] {
     border-style: hidden
 }
 
-.contentarea {
+.contentarea1 {
     display: block;
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
-    width: 666px;
-    height: 566px;
+    width: 650px;
+    height: 600px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.contentarea2 {
+    display: block;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    width: 650px;
+    height: 600px;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.contentarea3 {
+    display: block;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    width: 650px;
+    height: 600px;
     background-color: white;
     margin-left: 10%;
     margin-top: 40px;
@@ -194,8 +229,9 @@ footer {
 .portfoliowords1 {
     background-image: url(./hangman.jpg);
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
     float: left;
     position: relative;
 }
@@ -203,8 +239,8 @@ footer {
 .portfoliowords2 {
     background-image: url(./rpggame.jpg);
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     float: right;
     position: relative;
 }
@@ -212,8 +248,10 @@ footer {
 .portfoliowords3 {
     background-image: url(./triviagame.jpg);
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    margin-top: 200px;
+    margin-left: -150px;
+    height: 150px;
+    width: 150px;
     float: left;
     position: relative;
 }
@@ -221,8 +259,8 @@ footer {
 .portfoliowords4 {
     background-image: url(./rutgersinfowidget.jpg);
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     float: right;
     position: relative;
 }
@@ -230,20 +268,22 @@ footer {
 .portfoliowords5 {
     background-image: url(./rockpaperscissors.jpg);
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     float: left;
     position: relative;
 }
 
 #hangman, #rpggame, #triviagame, #rutgersinfowidget, #rockpaperscissors {
-    width: 70px;
+    width: 125px;
     background-color: #4aaaa5;
-    margin-top: 80%;
+    margin-top: 50px;
     display: inline;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-right: 10%;
     padding-left: 10%;
     position: absolute;
+    text-align: center;
+
 }
