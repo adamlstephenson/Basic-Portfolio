@@ -52,6 +52,7 @@ h3, h4, h5 {
     border-bottom-color: #dddddd;
     border-bottom-width: 3px;
     padding-bottom: 30px;
+    padding-top: 40px;
 }
 
 .pagelinks {
@@ -61,12 +62,14 @@ h3, h4, h5 {
     font-size: 20px;
     float: left;
     position: relative;
-    left: 66%;
+    left: 69%;
 }
 
 .links {
     text-decoration: none;
     color: #777777;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 /*Containers*/
@@ -91,13 +94,28 @@ h3, h4, h5 {
     float: left;
     margin-right: 10%;
     padding: 40px;
-    position: absolute;
+    position: relative;
     left: 66%;
-    top: 25%;
+    top: -625px;
+}
+
+#sidebar2 {
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    background: white;
+    float: left;
+    margin-right: 10%;
+    padding: 40px;
+    position: relative;
+    left: 66%;
+    top: -885px;
 }
 
 #contentarea1 {
-    display: block;
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
@@ -106,7 +124,7 @@ h3, h4, h5 {
     background-color: white;
     margin-left: 10%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0 auto;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -114,16 +132,15 @@ h3, h4, h5 {
 }
 
 #contentarea2 {
-    display: block;
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
     width: 650px;
-    height: 800px;
+    height: 860px;
     background-color: white;
     margin-left: 10%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0 auto;;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -131,16 +148,15 @@ h3, h4, h5 {
 }
 
 #contentarea3 {
-    display: block;
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
     width: 650px;
-    height: 600px;
+    height: 610px;
     background-color: white;
     margin-left: 10%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0 auto;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -157,11 +173,17 @@ h3, h4, h5 {
     padding-left: 0;
 }
 
+#socialmedia1:hover, #socialmedia2:hover, #socialmedia3:hover {
+    width: 85px;
+    height: 85px;
+} 
+
 #mypicture {
     height: 150px;
     width: 200px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-right: 20px;
+    padding-bottom: 10px;
     float: left;
 
 }
@@ -171,11 +193,14 @@ h3, h4, h5 {
 
 #hangman, #trivia, #rockpaperscissors, #rpggame, #rutgers {
     margin-top: 40px;
-    height: 200px;
+    height: 210px;
     width: 270px;
     float: left;
 }
 
+#trivia, #rutgers {
+    margin-left: 100px;
+}
 #hangman {
     background-image: url(../images/hangman.jpg);
 }
@@ -248,7 +273,13 @@ input[type=submit] {
     border: none;
     cursor: pointer;
     resize: vertical;
-    border-style: hidden
+    border-style: hidden;
+    width: 120px;
+    height: 40px;
+}
+
+input[type=submit]:hover {
+    background-color: cadetblue;
 }
 
 
@@ -280,5 +311,6 @@ p {
 }
 
 .aboutme {
-    padding-top: 40px;
+    padding-top: 20px;
+    font-size: 20px;
 }
